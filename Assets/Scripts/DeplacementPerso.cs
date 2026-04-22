@@ -48,7 +48,7 @@ public class DeplacementPerso : MonoBehaviour
         {
             rigid.AddForce(Vector2.up * forceSaut, ForceMode2D.Impulse);
         }
-        rigid.linearVelocityX = Mathf.Clamp(rigid.linearVelocityX, -15, 15);
-        rigid.linearVelocityY = Mathf.Clamp(rigid.linearVelocityY, -15, 15);
+        rigid.linearVelocityX = Mathf.Clamp(rigid.linearVelocityX, -25, 25);
+        rigid.linearVelocityY = Mathf.Clamp(rigid.linearVelocityY, -25, 25);
     }
 }
